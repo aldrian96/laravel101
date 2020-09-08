@@ -3,11 +3,7 @@
 		<title>Tugas view @yield('title')</title>    
 	</head>    
 	<body>        
-		@section('sidebar')            
-			This is the About view.        
-		@show        
-		<div class="container">            
-			@yield('content')        
-		</div>    
+        <p>This is the About view.</p>
+		
 	</body>
 </html>
